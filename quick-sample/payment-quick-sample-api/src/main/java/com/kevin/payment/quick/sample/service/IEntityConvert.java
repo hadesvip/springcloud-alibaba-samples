@@ -1,9 +1,14 @@
 package com.kevin.payment.quick.sample.service;
 
 /**
- * TODO 大哥加点注释吧
+ * 对象转换
  *
  * @author wangyong
  */
-public class EntityConvert {
+public interface IEntityConvert<S, T> {
+
+    default T convert(S source) {
+        return null;
+    }
+
 }

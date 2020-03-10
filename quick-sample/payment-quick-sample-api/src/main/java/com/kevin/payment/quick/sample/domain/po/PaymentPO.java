@@ -1,4 +1,4 @@
-package com.kevin.payment.quick.sample.domain.DO;
+package com.kevin.payment.quick.sample.domain.po;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,7 +11,7 @@ import java.util.Date;
  */
 @Data
 @NoArgsConstructor
-public class PaymentDO implements Serializable {
+public class PaymentPO implements Serializable {
 
     /**
      * 支付流水号
