@@ -1,4 +1,4 @@
-package com.kevin.payment.quick.sample.service;
+package com.kevin.payment.quick.sample.common.service;
 
 /**
  * 对象转换
