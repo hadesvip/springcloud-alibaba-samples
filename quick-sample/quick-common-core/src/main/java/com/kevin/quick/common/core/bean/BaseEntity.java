@@ -1,5 +1,7 @@
 package com.kevin.quick.common.core.bean;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 /**
@@ -12,7 +14,7 @@ public class BaseEntity {
     /**
      * 主键ID
      */
-    private String id = "";
+    private String id = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"));
 
     /**
      * 版本号默认为0
@@ -27,7 +29,7 @@ public class BaseEntity {
     /**
      * 创建人
      */
-    private String creater;
+    private String creator;
 
     /**
      * 创建时间
@@ -73,12 +75,12 @@ public class BaseEntity {
         this.status = status;
     }
 
-    public String getCreater() {
-        return creater;
+    public String getCreator() {
+        return creator;
     }
 
-    public void setCreater(String creater) {
-        this.creater = creater;
+    public void setCreator(String creator) {
+        this.creator = creator;
     }
 
     public Date getCreateTime() {
