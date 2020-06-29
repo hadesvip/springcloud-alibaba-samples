@@ -25,3 +25,4 @@ hs_err_pid*
 springcloud-alibaba-samples.iml
 .idea
 target
+*.iml
