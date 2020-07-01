@@ -1,4 +1,4 @@
-package com.kevin.quick.common.core.bean;
+package com.kevin.quick.common.dao.bean;
 
 import java.io.Serializable;
 import java.util.ArrayList;

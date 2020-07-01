@@ -1,4 +1,4 @@
-package com.kevin.quick.common.core.bean;
+package com.kevin.quick.common.core.bean.base;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

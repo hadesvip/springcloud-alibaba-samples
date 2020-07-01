@@ -12,9 +12,13 @@
     <artifactId>quick-sample</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>payment-quick-sample-api</module>
-        <module>payment-quick-sample</module>
+<!--        <module>payment-quick-sample-api</module>-->
+<!--        <module>payment-quick-sample</module>-->
         <module>quick-common-core</module>
+        <module>order-quick-sample</module>
+        <module>product-quick-sample</module>
+<!--        <module>pay-quick-sample</module>-->
+        <module>quick-common-dao</module>
     </modules>
 
 

@@ -1,6 +1,6 @@
 package com.kevin.payment.quick.sample.trade.domain;
 
-import com.kevin.quick.common.core.bean.BaseEntity;
+import com.kevin.quick.common.core.bean.base.BaseEntity;
 import lombok.Data;
 
 import java.io.Serializable;

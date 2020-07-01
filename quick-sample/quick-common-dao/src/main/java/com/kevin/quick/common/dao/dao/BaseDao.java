@@ -1,7 +1,7 @@
-package com.kevin.quick.common.core.dao;
+package com.kevin.quick.common.dao.dao;
 
-import com.kevin.quick.common.core.bean.Page;
-import com.kevin.quick.common.core.bean.PageParam;
+import com.kevin.quick.common.dao.bean.Page;
+import com.kevin.quick.common.dao.bean.PageParam;
 import org.mybatis.spring.SqlSessionTemplate;
 
 import java.util.List;

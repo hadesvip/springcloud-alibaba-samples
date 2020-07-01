@@ -1,4 +1,4 @@
-package com.kevin.quick.common.core.bean;
+package com.kevin.quick.common.core.bean.base;
 
 import java.io.Serializable;
 
