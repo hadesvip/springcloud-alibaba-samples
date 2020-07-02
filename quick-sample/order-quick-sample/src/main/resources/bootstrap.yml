@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: order-quick-sample
+  mandatory-file-encoding: utf-8
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        group: DEFAULT_GROUP
+        namespace: 6709ce49-b44b-4506-92e1-ec2ca1b3abdf
+server:
+  port: 9092
+  undertow:
+    accesslog:
+      enabled: true
+      dir: undertow-access-logs
+      pattern: common
+      rotate: true
+      prefix: discovery-client-access-log.
+      suffix: log
+  servlet:
+    context-path: /order-quick

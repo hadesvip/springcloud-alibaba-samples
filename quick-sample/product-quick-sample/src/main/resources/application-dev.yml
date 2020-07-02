@@ -27,6 +27,10 @@ spring:
       maxPoolPreparedStatementPerConnectionSize: 20
       useGlobalDataSourceStat: true
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
 logging:
   level:
     root: info
@@ -37,7 +41,7 @@ logging:
   pattern:
     dateformat: yyyy-MM-dd HH:mm:ss.SSS
 server:
-  port: 9092
+  port: 9100
   undertow:
     accesslog:
       enabled: true

@@ -11,7 +11,7 @@
   <modules>
     <module>springcloud-alibaba-samples-bom</module>
     <module>quick-sample</module>
-    <module>nacos-samples</module>
+<!--    <module>nacos-samples</module>-->
   </modules>
   <packaging>pom</packaging>
 
