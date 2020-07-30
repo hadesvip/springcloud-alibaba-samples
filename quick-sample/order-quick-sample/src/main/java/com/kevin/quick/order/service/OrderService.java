@@ -1,6 +1,5 @@
 package com.kevin.quick.order.service;
 
-import com.kevin.quick.common.core.bean.DO.OrderInfoDO;
 import com.kevin.quick.common.core.bean.VO.OrderInfoVO;
 
 /**
@@ -8,6 +7,6 @@ import com.kevin.quick.common.core.bean.VO.OrderInfoVO;
  */
 public interface OrderService {
 
-  public OrderInfoVO getOrderInfoByOrderNo(String orderNo);
+    OrderInfoVO getOrderInfoByOrderNo(String orderNo);
 
 }

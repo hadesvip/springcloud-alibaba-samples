@@ -1,6 +1,6 @@
 spring:
   application:
-    name: order-quick-sample
+    name: product-quick-sample
   mandatory-file-encoding: utf-8
   http:
     encoding:
@@ -17,7 +17,7 @@ spring:
         group: quick-sample
         namespace: 62ed15fa-b8a1-4b0e-83aa-3dc4396282dc
 server:
-  port: 9092
+  port: 9100
   undertow:
     accesslog:
       enabled: true
@@ -27,4 +27,5 @@ server:
       prefix: discovery-client-access-log.
       suffix: log
   servlet:
-    context-path: /order-quick
+    context-path: /product-quick
+

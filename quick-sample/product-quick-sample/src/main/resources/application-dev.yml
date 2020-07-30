@@ -1,17 +1,17 @@
 spring:
-  application:
-    name: product-quick-sample
-  mandatory-file-encoding: utf-8
-  http:
-    encoding:
-      charset: UTF-8
-      enabled: true
+#  application:
+#    name: product-quick-sample
+#  mandatory-file-encoding: utf-8
+#  http:
+#    encoding:
+#      charset: UTF-8
+#      enabled: true
   datasource:
     druid:
       username: root
       password: root
       jdbc-Url: jdbc:mysql://localhost:3306/ms_alibaba?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&useSSL=false
-      driverClassName: com.mysql.jdbc.Driver
+      driverClassName: com.mysql.cj.jdbc.Driver
       initialSize: 5
       minIdle: 5
       maxActive: 20
@@ -27,10 +27,10 @@ spring:
       maxPoolPreparedStatementPerConnectionSize: 20
       useGlobalDataSourceStat: true
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
 logging:
   level:
     root: info
@@ -40,18 +40,18 @@ logging:
     path: logs
   pattern:
     dateformat: yyyy-MM-dd HH:mm:ss.SSS
-server:
-  port: 9100
-  undertow:
-    accesslog:
-      enabled: true
-      dir: undertow-access-logs
-      pattern: common
-      rotate: true
-      prefix: discovery-client-access-log.
-      suffix: log
-  servlet:
-    context-path: /product-quick
+#server:
+#  port: 9100
+#  undertow:
+#    accesslog:
+#      enabled: true
+#      dir: undertow-access-logs
+#      pattern: common
+#      rotate: true
+#      prefix: discovery-client-access-log.
+#      suffix: log
+#  servlet:
+#    context-path: /product-quick
 management:
   endpoints:
     web:
